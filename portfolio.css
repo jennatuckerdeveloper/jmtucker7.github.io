@@ -40,11 +40,15 @@
 
 #buttons div {
   border: 1px solid;
-  color: #ffb884;
+  border-color: #ffb884;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px; }
+
+#buttons a {
+  color: #ffb884;
+  text-decoration: none; }
 
 #title {
   font-family: "brandon-grotesque-n7", "brandon-grotesque", sans-serif;
@@ -72,20 +76,22 @@
   margin-top: -10px;
   padding: 0;
   width: 100vw;
-  height: 100vh;
+  height: 75vh;
   background-color: #3d3d3d;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
 
 #abt {
-  padding-top: 40px;
+  height: 7vh;
+  margin-top: 10vh;
+  padding-top: 10px;
+  padding-bottom: 5px;
   font-size: 3em;
   color: white;
   font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
   font-variant: all-petite-caps;
-  border-bottom: 1px solid;
-  padding-bottom: 10px; }
+  border-bottom: 1px solid; }
 
 #sum {
   display: flex;
@@ -94,7 +100,7 @@
   margin-left: 10vw;
   margin-right: 10vw;
   width: 80vw;
-  margin-top: 10vh;
+  margin-bottom: 10vh;
   font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
   color: #6c6d6e; }
 
@@ -111,10 +117,21 @@
   margin-left: 40px;
   line-height: 1.5; }
 
+#skillsets {
+  margin-top: -10px;
+  padding: 0;
+  width: 100vw;
+  height: 50vh;
+  background-color: #1d1d1d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid; }
+
 #skz {
-  padding-top: 5vh;
+  margin-top: 5vh;
   font-size: 2em;
-  color: #904b34;
+  color: white;
   font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
   font-variant: all-petite-caps;
   border-bottom: 1px solid;
@@ -122,17 +139,14 @@
 
 #skills {
   display: flex;
+  justify-content: space-around;
   padding-top: 2vh;
   padding-left: 10vw;
   padding-right: 10vw;
   padding-bottom: 10vh;
-  justify-content: space-around;
   width: 100vw; }
 
 #skills div {
-  margin-bottom: 30px;
-  padding-top: 5px;
-  padding-right: 20px;
   line-height: 1.25;
   text-align: center; }
 
