@@ -41,11 +41,12 @@
 #buttons {
   display: flex;
   justify-content: space-around;
+  margin-top: 60px;
 }
 
 #buttons div {
-  border: 1px solid;
-  border-color: #ffb884;
+  border: 2px solid;
+  border-color: #c36200;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -53,8 +54,9 @@
 }
 
 #buttons a {
-  color: #ffb884;
+  color: #c36200;
   text-decoration: none;
+
 }
 
 #title {
