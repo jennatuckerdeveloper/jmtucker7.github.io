@@ -60,6 +60,7 @@
 #projects {
   margin-top: -10px;
   padding: 0;
+  padding-top: 10px;
   width: 100vw;
   height: 100vh;
   background-color: #b1dcf7;
@@ -67,11 +68,67 @@
   flex-wrap: wrap;
   justify-content: space-around; }
 
-#projects div {
-  height: 15vw;
-  width: 20vw;
+.project {
+  height: 30vh;
+  width: 40vw;
   background-color: white;
-  margin: 5vw; }
+  display: flex;
+  flex-direction: column;
+  border: solid #1d1d1d 3px;
+}
+
+.projectImageDiv {
+  height: 60vh;
+  width: 40vw;
+  background-size: cover;
+}
+
+.projectDescription {
+  background: #1d1d1d;
+  color: #6c6d6e;
+  font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
+  font-size: .9em;
+  padding: 4px
+}
+
+#projectImage1 {
+  background: url('photoCollectionApp.png')
+}
+
+#projectImage2 {
+  background: url('JSSolutions.png')
+}
+
+#projectImage3 {
+  background: url('JSSolutions.png')
+}
+
+.siteLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30vh;
+  width: 40vw;
+  background-color: #6c6d6e; 
+  
+}
+
+.projectSiteLink, .projectRepoLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  flex-grow: 1;
+  border: solid #1d1d1d 2px;
+  text-align: center;
+  font-family: "brandon-grotesque-n7","brandon-grotesque",sans-serif;
+  font-variant: all-small-caps;
+}
+
+a {
+  text-decoration: none;
+  color: #1d1d1d
+}
 
 #sumskills {
   margin-top: -10px;
@@ -103,7 +160,8 @@
   width: 80vw;
   margin-bottom: 10vh;
   font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
-  color: #6c6d6e; }
+  color: #6c6d6e; 
+}
 
 #pic {
   background-image: url("JennaTucker.jpg");
@@ -116,7 +174,9 @@
   width: 35vw;
   height: 268px;
   margin-left: 40px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  margin-bottom: 7vh
+}
 
 #skillsets {
   margin-top: -10px;
