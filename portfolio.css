@@ -8,7 +8,8 @@
   width: 100vw;
   height: 100vh;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px; 
+}
 
 #photo {
   background-image: url("IMG_1782copy.jpg");
@@ -81,6 +82,7 @@
   height: 60vh;
   width: 40vw;
   background-size: cover;
+  background-repeat: no-repeat
 }
 
 .projectDescription {
@@ -92,15 +94,18 @@
 }
 
 #projectImage1 {
-  background: url('photoCollectionApp.png')
+  background: url('photoCollectionApp.png');
+  background-repeat: no-repeat
 }
 
 #projectImage2 {
-  background: url('JSSolutions.png')
+  background: url('JSSolutions.png');
+  background-repeat: no-repeat
 }
 
 #projectImage3 {
-  background: url('JSSolutions.png')
+  background: url('NeoOT.png');
+  background-repeat: no-repeat
 }
 
 .siteLinks {
@@ -237,4 +242,70 @@ footer a {
   color: #121212;
   font-size: 2em; }
 
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #projects {
+      width: auto;
+      height: auto;
+  }
+
+  #name {
+    margin-top: 0
+  }
+    
+
+  #buttons {
+    margin-top: 10px; }
+
+  .project {
+    margin: 5%;
+    height: auto;
+    width: auto;
+  }
+
+    .siteLinks {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 20vh;
+      width: 95vw;
+      background-color: #6c6d6e; 
+      
+    }
+
+    #sumskills {
+      height: auto;
+    }
+
+    #sum {
+      flex-direction: column;
+      margin-top: 20px
+    }
+
+    #pic {
+      margin: 30px;
+      margin-top: 40px
+    }
+
+    #pitch {
+      height: auto;
+      width: auto
+    }
+
+    #skillsets {
+      height: auto
+    }
+
+    #skills {
+      flex-direction: column;
+    }
+
+    #skills div  {
+      width: 100vw
+    }
+    
+}
+
 /*# sourceMappingURL=portfolio.css.map */
+
