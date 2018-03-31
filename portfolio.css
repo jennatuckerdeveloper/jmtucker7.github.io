@@ -181,7 +181,7 @@ a {
   margin-top: -10px;
   padding: 0;
   width: 100vw;
-  height: 75vh;
+  height: auto;
   background-color: #3d3d3d;
   display: flex;
   flex-wrap: wrap;
@@ -197,7 +197,7 @@ a {
   font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
   font-variant: all-petite-caps;
   text-align: center;
-  border-bottom: 1px solid; }
+  text-decoration: underline; }
 
 #sum {
   display: flex;
@@ -232,7 +232,7 @@ a {
   margin-top: -10px;
   padding: 0;
   width: 100vw;
-  height: 50vh;
+  height: auto;
   background-color: #1d1d1d;
   display: flex;
   flex-wrap: wrap;
@@ -254,8 +254,9 @@ a {
   padding-top: 2vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-bottom: 10vh;
-  width: 100vw; }
+  padding-bottom: 5vh;
+  width: 100vw;
+ }
 
 #skills div {
   line-height: 1.25;
