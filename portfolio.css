@@ -8,17 +8,15 @@
   width: 100vw;
   height: 100vh;
   margin: 0px;
-  padding: 0px; 
 }
 
 #photo {
   background-image: url("IMG_1782copy.jpg");
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 8px;
+  right: -8px;
   bottom: 0;
-  margin: auto;
   background-size: cover;
   opacity: .95;
   display: flex;
@@ -60,9 +58,9 @@
 
 #projectsContainer {
   background-color: #b1dcf7;
+  margin: 0px;
   margin-top: -10px;
   width: 100vw;
-  margin-left: -10px;
   display:flex;
   flex-direction: column
 }
@@ -102,7 +100,7 @@
 
 .projectTitle {
   width: auto;
-  height: 15vh;
+  height: 94px;
   background: rgba(0,0,0,.2);
   font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
   font-size: 2em;
@@ -112,16 +110,16 @@
 }
 
 .projectImageDiv {
-  height: 70vh;
-  width: 267px;
-}
+  height: 188px;
+   width: 267px;
+} 
 
 .projectDescription {
   color: #1d1d1d;;
   font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
   font-size: 1em;
   padding: 4px;
-  height: 40vh;
+  height: 94px;
   padding-top: 3vh;
   text-align: center
 }
@@ -148,13 +146,13 @@
   background-repeat: no-repeat;
   background-position: center;
   margin: 5px;
-}
+} 
 
 .siteLinks {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 25vh;
+  height: 94px;
   width: 267px;
   background: rgba(0,0,0,.4)
   
@@ -185,7 +183,8 @@ a {
   background-color: #3d3d3d;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around; 
+  }
 
 #abt {
   height: 7vh;
@@ -237,7 +236,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 1px solid; }
+  border: 1px solid; 
+  }
 
 #skz {
   margin-top: 5vh;
@@ -281,7 +281,8 @@ footer {
   height: 50vh;
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center; 
+ }
 
 footer a {
   text-decoration: none;
@@ -333,4 +334,3 @@ footer a {
   }
     
 }
-
