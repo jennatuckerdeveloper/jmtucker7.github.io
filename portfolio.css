@@ -156,6 +156,14 @@
   margin: 5px;
 } 
 
+#projectImage5 {
+  background: url('traversyMERN.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+} 
+
 .siteLinks {
   display: flex;
   flex-direction: column;
